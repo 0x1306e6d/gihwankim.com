@@ -1,5 +1,7 @@
 # gihwankim.com
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7841e6a5-9d3e-4592-aeb3-e807647ee40c/deploy-status)](https://app.netlify.com/sites/gihwankim/deploys)
+
 🙋🏻‍♂️: https://gihwankim.com
 
 ## License
