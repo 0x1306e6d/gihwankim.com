@@ -1,0 +1,23 @@
+import { Box, Heading, Link, Text } from "rebass"
+
+<Box mb={4}>
+  <Heading variant="display">Gihwan Kim</Heading>
+  <Text variant="caps">as a Server Engineer</Text>
+</Box>
+
+<Box p={4} sx={{ bg: "muted" }}>
+  <Link
+    fontFamily="monospace"
+    href="https://github.com/ghkim3221"
+    sx={{
+      color: "inherit",
+      textDecoration: "none",
+      ":hover, :focus": {
+        color: "primary",
+        textDecoration: "underline",
+      },
+    }}
+  >
+    https://github.com/ghkim3221
+  </Link>
+</Box>
