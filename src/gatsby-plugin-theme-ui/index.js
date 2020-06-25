@@ -38,6 +38,11 @@ export default {
       textTransform: "uppercase",
       letterSpacing: "0.1em",
     },
+    footer: {
+      color: "#555555",
+      textTransform: "monospace",
+      letterSpacing: "0.1em",
+    },
   },
   variants: {
     nav: {
