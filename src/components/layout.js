@@ -1,5 +1,14 @@
 import React from "react"
 
-import { Box } from "rebass"
+import { Box, Flex } from "rebass"
 
-export default ({ children }) => <Box sx={{ p: 4 }}>{children}</Box>
+import Header from "./header"
+
+export default ({ children }) => (
+  <Flex flexDirection="column">
+    <Header />
+    <Box as="main" p={4}>
+      {children}
+    </Box>
+  </Flex>
+)

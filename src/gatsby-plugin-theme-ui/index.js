@@ -39,6 +39,17 @@ export default {
       letterSpacing: "0.1em",
     },
   },
+  variants: {
+    nav: {
+      fontSize: 2,
+      p: 2,
+      color: "inherit",
+      textDecoration: "none",
+      ":hover, :focus, .active": {
+        color: "primary",
+      },
+    },
+  },
   styles: {
     root: {
       fontFamily: "body",
