@@ -1,10 +1,31 @@
-import { Box, Heading, Link, Text } from "rebass"
+import { Box, Flex, Heading, Link, Text } from "rebass"
 
 import BusinessCard from "../components/business-card"
+import Divider from "../components/divider"
 
 <BusinessCard>
-  <Box p={4}>
-    <Heading variant="display">Gihwan Kim</Heading>
-    <Text variant="caps">as a Server Engineer</Text>
-  </Box>
+  <Flex alignItems="center" flexDirection="column" justifyContent="center">
+    <Box pt={[5, 6]}>
+      <Heading variant="display">Gihwan Kim</Heading>
+    </Box>
+    <Divider width="50%" mt={4} mb={2} />
+    <Text variant="caps">A Server Engineer</Text>
+    <Divider width="50%" mt={2} mb={4} />
+    <Box m={2}>
+      <Text>
+        ✉️ Email:{" "}
+        <Link href="mailto:ghkim3221@gmail.com">ghkim3221@gmail.com</Link>
+      </Text>
+    </Box>
+    <Box m={2}>
+      <Text>
+        🖋 Blog: <Link href="https://gihwan.dev">Gihwan's Blog</Link>
+      </Text>
+    </Box>
+    <Box m={2}>
+      <Text>
+        👨‍💻 GitHub: <Link href="https://github.com/ghkim3221">@ghkim3221</Link>
+      </Text>
+    </Box>
+  </Flex>
 </BusinessCard>
