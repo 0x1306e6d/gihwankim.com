@@ -13,6 +13,7 @@ export default () => (
     sx={{
       position: "fixed",
       top: 0,
+      zIndex: 999,
     }}
     width="100%"
   >
