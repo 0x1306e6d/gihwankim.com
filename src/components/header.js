@@ -6,11 +6,11 @@ export default () => (
   <Flex
     alignItems="center"
     as="header"
+    backgroundColor="transparent"
+    color="white"
     px={[2, 3]}
     py={2}
     sx={{
-      borderBottomStyle: "solid",
-      borderBottomWidth: 1,
       position: "fixed",
       top: 0,
     }}
