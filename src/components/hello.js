@@ -30,7 +30,6 @@ export default () => {
             position: "absolute",
             transform: `translate(${cursor.x - 64}px, ${cursor.y - 64}px)`,
             top: 0,
-            zIndex: 0,
           }}
           width="128px"
         />
