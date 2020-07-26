@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react"
 
-import { Flex, Text } from "rebass"
+import { Box, Flex, Text } from "rebass"
 
 import BouncingBall from "./bouncing-ball"
 
@@ -23,18 +23,20 @@ export default () => {
   }, [ref])
 
   return (
-    <Flex
-      alignItems="center"
-      backgroundColor="black"
-      flexDirection="column"
-      justifyContent="center"
-      minHeight="100vh"
-      ref={ref}
-    >
-      <BouncingBall width={width} height={height} />
-      <Text color="white" fontSize="64px" fontWeight="bold">
-        HELLO
-      </Text>
-    </Flex>
+    <Box backgroundColor="black" minHeight="100vh" ref={ref}>
+      <Flex
+        alignItems="center"
+        flexDirection="column"
+        justifyContent="center"
+        minHeight="100vh"
+      >
+        <Text color="white" fontSize="64px" fontWeight="bold">
+          HELLO
+        </Text>
+      </Flex>
+      <Box sx={{ position: "absolute", top: 0, height: 0 }}>
+        <BouncingBall width={width} height={height} />
+      </Box>
+    </Box>
   )
 }
