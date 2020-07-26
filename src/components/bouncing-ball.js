@@ -66,6 +66,7 @@ export default ({ width, height }) => {
     <svg width={width} height={height}>
       {cursors.map(cursor => (
         <g
+          key={cursor}
           onClick={() => addCursor()}
           transform={`translate(${cursor.x}, ${cursor.y})`}
         >
