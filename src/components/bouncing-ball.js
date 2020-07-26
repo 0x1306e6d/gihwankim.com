@@ -50,8 +50,10 @@ export default ({ width, height }) => {
   }
 
   useEffect(() => {
-    if (cursors.length === 0) {
-      setCursors([createCursor(width, height)])
+    if (width > 0 && height > 0) {
+      if (cursors.length === 0) {
+        setCursors([createCursor(width, height)])
+      }
     }
   }, [width, height, cursors])
 
