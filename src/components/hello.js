@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react"
 
-import { Box, Flex, Text } from "rebass"
+import { Box, Flex, Heading, Text } from "rebass"
 
 import BouncingBall from "./bouncing-ball"
 
@@ -30,9 +30,9 @@ export default () => {
         justifyContent="center"
         minHeight="100vh"
       >
-        <Text color="white" fontSize="64px" fontWeight="bold">
+        <Heading color="white" fontSize={[7, 8]} fontWeight="bold">
           HELLO
-        </Text>
+        </Heading>
       </Flex>
       <Box sx={{ position: "absolute", top: 0, height: 0 }}>
         <BouncingBall width={width} height={height} />
