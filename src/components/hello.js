@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react"
 
-import { Box, Flex, Heading, Text } from "rebass"
+import { Box, Flex, Heading } from "rebass"
 
 import BouncingBall from "./bouncing-ball"
 
