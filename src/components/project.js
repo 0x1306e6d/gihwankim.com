@@ -23,6 +23,9 @@ export default ({ title, description, url }) => (
         fontSize: "18px",
         fontWeight: "bord",
         textDecoration: "none",
+        ":hover": {
+          textDecoration: "underline",
+        },
       }}
     >
       {title}
