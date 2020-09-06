@@ -9,7 +9,7 @@ export default ({ title, description, url }) => (
     flexDirection="column"
     sx={{
       padding: "16px",
-      borderColor: "gray",
+      borderColor: "#e1e4e8",
       borderRadius: ".5rem",
       borderStyle: "solid",
       borderWidth: "1px",
