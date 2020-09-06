@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Box, Card, Flex, Heading, Text } from "rebass"
+import { Box, Flex, Heading, Text } from "rebass"
 
 import Project from "./project"
 
