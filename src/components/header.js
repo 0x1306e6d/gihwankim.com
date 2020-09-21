@@ -19,8 +19,8 @@ export default () => (
         marginLeft: "auto",
         marginRight: "auto",
         color: "black",
+        fontFamily: "Arapey, serif",
         fontSize: [6, 8],
-        fontWeight: "bold",
         textDecoration: "none",
       }}
     >
