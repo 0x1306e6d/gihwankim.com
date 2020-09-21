@@ -1,28 +1,41 @@
 import React from "react"
 
-import { Box, Flex, Link } from "rebass"
+import { Box, Flex, Link, Heading } from "rebass"
+
+import Divider from "./divider"
 
 export default () => (
   <Flex
-    alignItems="center"
     as="header"
-    backgroundColor="transparent"
-    color="white"
-    px={[2, 3]}
-    py={2}
+    flexDirection="column"
     sx={{
-      position: "fixed",
-      top: 0,
-      zIndex: 999,
+      paddingTop: 4,
     }}
-    width="100%"
   >
-    <Link href="/" variant="nav">
+    <Heading
+      as="a"
+      href="/"
+      sx={{
+        marginLeft: "auto",
+        marginRight: "auto",
+        color: "black",
+        fontSize: [6, 8],
+        fontWeight: "bold",
+        textDecoration: "none",
+      }}
+    >
       Gihwan Kim
-    </Link>
-    <Box mx="auto" />
-    <Link href="https://github.com/ghkim3221/gihwankim.com" variant="nav">
-      GitHub
-    </Link>
+    </Heading>
+    <Divider />
+    <Box sx={{ marginTop: 2, marginBottom: 2 }}>
+      <Flex flexDirection="row" alignItems="center" justifyContent="center">
+        <Link href="https://gihwan.dev" variant="nav">
+          Blog
+        </Link>
+        <Link href="https://github.com/ghkim3221" variant="nav">
+          GitHub
+        </Link>
+      </Flex>
+    </Box>
   </Flex>
 )
