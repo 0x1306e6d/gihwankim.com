@@ -8,13 +8,5 @@ module.exports = {
         trackingId: "UA-138964328-3",
       },
     },
-    {
-      resolve: "gatsby-plugin-web-font-loader",
-      options: {
-        google: {
-          families: ["Arapey"],
-        },
-      },
-    },
   ],
 }
