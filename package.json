@@ -30,6 +30,7 @@
     "gatsby-plugin-google-analytics": "^2.3.14",
     "gatsby-plugin-mdx": "^1.2.40",
     "gatsby-plugin-theme-ui": "^0.3.0",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "rebass": "^4.0.7",
