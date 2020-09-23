@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Box, Flex, Heading, Text } from "rebass"
+import { Box, Flex, Text } from "rebass"
 
 import Project from "./project"
 
@@ -11,22 +11,21 @@ export default () => (
       maxWidth: ["540px", "720px", "960px", "1140px"],
       paddingLeft: "1rem",
       paddingRight: "1rem",
-      marginTop: [4, 5],
-      marginBottom: [4, 5],
+      marginTop: [2, 4],
+      marginBottom: [2, 4],
       marginLeft: "auto",
       marginRight: "auto",
     }}
   >
     <Flex
-      alignItems={["start", "center"]}
+      alignItems="start"
       justifyContent="center"
       flexDirection="column"
-      marginBottom={[3, 4]}
+      marginBottom={[2, 4]}
     >
-      <Heading fontSize={[6, 7, 8]} fontWeight="normal">
-        Projects
-      </Heading>
-      <Text>I love toy projects.</Text>
+      <Text fontSize={[5, 7]} fontWeight="lighter">
+        I love toy projects.
+      </Text>
     </Flex>
     <Box
       sx={{

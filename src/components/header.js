@@ -36,6 +36,9 @@ export default () => (
         <Link href="https://github.com/ghkim3221" variant="nav">
           GitHub
         </Link>
+        <Link href="/projects" variant="nav">
+          Projects
+        </Link>
       </Flex>
     </Box>
   </Flex>
