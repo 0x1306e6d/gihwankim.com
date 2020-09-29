@@ -28,7 +28,7 @@
     "@mdx-js/react": "^1.6.18",
     "gatsby": "^2.24.66",
     "gatsby-plugin-google-analytics": "^2.3.14",
-    "gatsby-plugin-mdx": "^1.2.41",
+    "gatsby-plugin-mdx": "^1.2.42",
     "gatsby-plugin-theme-ui": "^0.3.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
