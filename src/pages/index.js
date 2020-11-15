@@ -1,3 +1,9 @@
 import React from "react"
 
-export default () => <></>
+import History from "../components/history"
+
+export default () => (
+  <>
+    <History />
+  </>
+)
