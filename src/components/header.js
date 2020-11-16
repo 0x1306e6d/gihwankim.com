@@ -39,6 +39,9 @@ export default () => (
         <Link href="/projects" variant="nav">
           Projects
         </Link>
+        <Link href="/history" variant="nav">
+          History
+        </Link>
       </Flex>
     </Box>
   </Flex>
